@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
+    /* margin-left: 0px; */
 }
 .header{
     width: 100%;
@@ -27,14 +28,18 @@ body{
     left: 4px;
 }
 .menubar{
+    margin-top: 63px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     border: 1px solid red;
     justify-content: space-evenly;
-    height: 30px;
+    height: 40px;
     width: 100%;
+    background: white;
 }
 .image{
+    margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
@@ -62,15 +67,19 @@ h3{
 .services{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: center; 
 }
 .srvcbtn{
     padding: 50px;
+    /* margin: 10px; */
     border: 1px solid green;
-    width: 200px;
+    width: 170px;
+    border-style: outset;
+    /* box-shadow: 5px 5px ; */
+    background: white;
 }
 .navi{
     padding: 20px;
@@ -83,3 +92,8 @@ h3{
     position: relative;
     right: 50px;
 }
+/* .center{
+    margin-top: 63px;
+    display: flex;
+    flex-wrap: wrap;
+} */
